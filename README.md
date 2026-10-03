@@ -11,7 +11,7 @@
 ## 配布版（単一実行ファイル）
 
 Node.js 不要で動く単一実行ファイル版です。**Google Chrome は必要**です。
-最新版は [GitHub Releases](https://github.com/suzz-u/MINEPORTAL_AUTO_VOTE/releases/latest) からダウンロードできます。
+最新版は [GitHub Releases](https://github.com/suzz-u/MINEPORTAL_VOTE/releases/latest) からダウンロードできます。
 
 | ファイル | 対応OS |
 | --- | --- |
@@ -66,7 +66,7 @@ MINEPORTAL_AUTO_VOTE.exe --once --dry-run     # Windows (コマンドプロン�
 | 方法 | 費用 | 効果 |
 | --- | --- | --- |
 | そのまま許可してもらう | 0円 | 「詳細情報」→「実行」。`SHA256SUMS.txt` のハッシュ確認を案内する |
-| `install.ps1`（PowerShell インストーラ） | 0円 | `irm https://raw.githubusercontent.com/suzz-u/MINEPORTAL_AUTO_VOTE/main/install.ps1 \| iex` で導入。Invoke-WebRequest は Mark-of-the-Web を付けないため SmartScreen が出ない |
+| `install.ps1`（PowerShell インストーラ） | 0円 | `irm https://raw.githubusercontent.com/suzz-u/MINEPORTAL_VOTE/main/install.ps1 \| iex` で導入。Invoke-WebRequest は Mark-of-the-Web を付けないため SmartScreen が出ない |
 | Scoop / winget 経由で配布 | 0円 | パッケージマネージャのダウンローダは MOTW を付けないため警告が出ない |
 | OV コード署名証明書 | 約$100〜/年 | 発行元名は表示されるが、SmartScreen の評価はダウンロード実績の蓄積が必要（即時ではない） |
 | EV コード署名証明書 | 約$300〜/年 | SmartScreen の評価が即時付与される（確実に警告を消せる唯一の正規手段） |

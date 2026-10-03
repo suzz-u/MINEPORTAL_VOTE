@@ -1,7 +1,7 @@
 # MINEPORTAL_AUTO_VOTE - Windows installer (no Mark-of-the-Web, no SmartScreen)
 #
 # Usage (recommended, no download of this script needed):
-#   irm https://raw.githubusercontent.com/suzz-u/MINEPORTAL_AUTO_VOTE/main/install.ps1 | iex
+#   irm https://raw.githubusercontent.com/suzz-u/MINEPORTAL_VOTE/main/install.ps1 | iex
 #
 # Usage (from a local zip):
 #   powershell -ExecutionPolicy Bypass -File .\install.ps1 -ZipPath .\MINEPORTAL_AUTO_VOTE-windows-x64.zip
@@ -14,7 +14,7 @@
 
 [CmdletBinding()]
 param(
-    [string]$Url = "https://github.com/suzz-u/MINEPORTAL_AUTO_VOTE/releases/latest/download/MINEPORTAL_AUTO_VOTE-windows-x64.zip",
+    [string]$Url = "https://github.com/suzz-u/MINEPORTAL_VOTE/releases/latest/download/MINEPORTAL_AUTO_VOTE-windows-x64.zip",
     [string]$ZipPath = "",
     [string]$Sha256 = "",
     [string]$InstallDir = (Join-Path $env:LOCALAPPDATA "MINEPORTAL_AUTO_VOTE"),
