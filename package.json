@@ -1,0 +1,20 @@
+{
+  "name": "mineportal-auto-vote",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MinePortal (mineportal.jp) auto voting bot. Votes with MCIDs from config using headless Chrome (reCAPTCHA v3 is executed by the real site JS).",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "once": "node index.js --once",
+    "dry-run": "node index.js --once --dry-run",
+    "headed": "node index.js --once --headed"
+  },
+  "dependencies": {
+    "playwright-core": "1.63.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

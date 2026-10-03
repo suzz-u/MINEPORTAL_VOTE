@@ -1,0 +1,9 @@
+node_modules/
+.browser-profile/
+vote.log
+config.json
+probe*.png
+detail.txt
+.bun-cache/
+build/
+dist/

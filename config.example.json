@@ -1,0 +1,20 @@
+{
+  "serverUrl": "https://mineportal.jp/servers/cmho85kzc0000g15izgsjnsr6",
+  "mcids": [
+    "YourMCID"
+  ],
+  "intervalMinutes": 60,
+  "dailyAt": "00:05",
+  "retriesPerVote": 2,
+  "retryDelaySeconds": 30,
+  "betweenMcidDelaySeconds": 10,
+  "headless": true,
+  "channel": "chrome",
+  "executablePath": "",
+  "userDataDir": ".browser-profile",
+  "timeoutSeconds": 90,
+  "jitterSeconds": 0,
+  "dryRun": false,
+  "logFile": "vote.log",
+  "discordWebhookUrl": ""
+}
